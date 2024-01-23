@@ -46,6 +46,10 @@ header nav.navbar {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.services h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .service-card {
   border: 2px solid #ccd5ae;
   background-color: #E9EDC9;
@@ -132,94 +136,47 @@ header nav.navbar {
     z-index: 1;
   }
 
-/* FAQ */
-.questions {
+/* Experiências */
+.professional {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-  .questions .container > h2 {
+  .professional .container h2 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
-  .questions .accordion-button {
-    background-color: #e9edc9;
-    color: #d4a373;
-    font-weight: 600;
-    box-shadow: none;
+  .professional .container h3 {
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 16px;
   }
-    .questions .accordion-button::after {
-      background-image: var(--bs-accordion-btn-active-icon) !important;
-      filter: invert(1);
-    }
-  .questions .accordion-item {
-    border-color: #d4a373;
-    background-color: transparent;
+  .professional li {
+    padding-bottom: 10px;
   }
 
-/* Depoimentos */
-.testimonials {
+/* Formação Acadêmica */
+.academic {
   background-color: #e9edc9;
-  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-  .testimonials .carousel-item {
-    min-height: 300px;
+  .academic h2 {
+    text-align: center;
+    margin-bottom: 50px;
   }
-    .testimonials .carousel-item blockquote {
-      min-height: 270px;
-      max-width: 70%;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      justify-content: center;
-    }
-      .testimonials .carousel-item blockquote * {
-        z-index: 1;
-      }
-      .testimonials .carousel-item blockquote .testimonial-author {
-        display: flex;
-        align-items: center;
-      }
-      .testimonials .carousel-item blockquote .testimonial-author__avatar {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        object-fit: cover;
-        margin-right: 10px;
-      }
-      .testimonials .carousel-item blockquote .testimonial-author__name {
-        margin-bottom: 0;
-        font-weight: 500;
-      }
-      .testimonials .carousel-item blockquote .testimonial-author__service {
-        font-size: .8em;
-        margin-bottom: 0;
-      }
-      .testimonials .carousel-item blockquote::before {
-        content: "";
-        position: absolute;
-        bottom: 20px;
-        right: 15%;
-        background-image: url('../img/quotation-mark-colored.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        display: block;
-        max-width: 70%;
-        width: 200px;
-        height: 170px;
-        opacity: .3;
-        z-index: 0;
-        pointer-events: none;
-      }
-  .testimonials .carousel-indicators [data-bs-target] {
-    background-color: #d4a373;
+  .academic h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 16px;
   }
-  .testimonials .carousel-control-next .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23d4a373'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  .academic p {
+    margin-bottom: 0;
   }
-  .testimonials .carousel-control-prev .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23d4a373'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+  .academic hr {
+    width: 90%;
+  }
+  .academic li {
+    padding-bottom: 10px;
   }
 
 /* Contato */
